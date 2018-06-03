@@ -1,0 +1,185 @@
+:root{
+font-size: 12px;
+font-family: 'Oswald', sans-serif;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.profile{
+  background-color: #ecf0f1;
+  height: 7em;
+}
+.two-header .profile .col-md-4 .row .col-md-2 .pro> img{
+  height: 49px;
+  width: 49px;
+  border-radius:50%;
+ 
+}
+.two-header .profile .col-md-4 .row .col-md-6 >p{
+  margin-top: 1em;
+}
+.two-header .profile .col-md-4 .row .col-md-2 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+  } 
+.two-header .profile .col-md-4 {
+  margin-top: 1em;
+}
+.two-header .profile .col-md-8 .row .col-md-1 >img{
+ height: 49px;
+  width: 49px;
+  border-radius:50%;
+}
+.two-header .profile .col-md-8 .row .col-md-7 >p{
+  margin-top: 1em;
+}
+.two-header .profile .col-md-8 .row .col-md-2 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+.two-header .profile .col-md-8 .row .col-md-1 > i{
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+.list-friend .img > img{
+ height: 49px;
+  width: 49px;
+  border-radius:50%;
+}
+ .notification .row .col-md-4 .col-md-9 >p{
+   font-size: 1.6em;
+   font-weight: bold;
+ }
+ .notification .row .col-md-4 .col-md-9 >small{
+    font-size: 1.5em;
+  }
+  .notification .row .col-md-4 .row .col-md-3 > i{
+    font-size: 3.5em;
+  }
+  
+    
+.scroll{
+    overflow-y:scroll;
+     overflow-x: hidden;
+   }
+   .si{
+    height: 70vh;
+  }
+.bottom{
+  background-color:#ecf0f1;
+  position: fixed;
+  bottom: 0px;
+  width: 70%;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+@media screen and (max-width: 347px){
+.two-header .profile .col-md-4 .row .col-md-2 .pro> img{
+  height: 35px;
+  width: 35px;
+  border-radius:50%;
+  margin-top:1em;
+}
+
+.list-friend .img > img{
+ height: 35px;
+  width: 35px;
+  border-radius:50%;
+  margin-top: 1em;
+}
+.two-header .profile .col-md-4 .row .col-md-2 > i{
+  font-size: 1.5em;
+
+}
+}
+@media screen and (max-width: 280px){
+ .two-header .profile .col-md-4 .row .col-md-2 .pro> img{
+  height: 35px;
+  width: 35px;
+  border-radius:50%;
+  margin-left:0em;
+}
+.list-friend .img > img{
+ height: 30px;
+  width: 30px;
+  border-radius:50%;
+}
+.two-header .profile .col-md-4 .row .col-md-2 > i{
+  font-size: 1.2em;
+  margin-top: 2em;
+} 
+}
+/*@media screen and (max-width: 250px){
+  /*:root{
+   font-size: 0.5em;
+  }*/
+}*/
+@media screen and (max-width: 996px){
+  .notification .row .col-md-4 .col-md-9 >p{
+    font-size: 1.4em;
+
+  }
+  .notification .row .col-md-4 .col-md-9 >small{
+    font-size: 1.3em;
+  }
+   .notification .row .col-md-4 .row .col-md-3 > i{
+    font-size: 2.4em;
+  }
+  .two-header .profile .col-md-4 .row .col-md-2 .pro> img{
+  height: 49px;
+  width: 49px;
+  border-radius:50%;
+}
+}
+@media screen and (max-width: 903px){
+  .notification .row .col-md-4 .col-md-9 >p{
+    font-size: 1.2em;
+
+  }
+  .notification .row .col-md-4 .col-md-9 >small{
+    font-size: 1.1em;
+  }
+   .notification .row .col-md-4 .row .col-md-3 > i{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 1100px){
+  .notification .row .col-md-4 .col-md-9 >p{
+    font-size: 1.2em;
+
+  }
+  .notification .row .col-md-4 .col-md-9 >small{
+    font-size: 1.1em;
+  }
+   .notification .row .col-md-4 .row .col-md-3 > i{
+    font-size: 2.6em;
+  }
+}
+@media screen and (max-width: 871px){
+ .notification .row .col-md-4 .col-md-9 >p{
+    font-size: 1.1em;
+
+  }
+  .notification .row .col-md-4 .col-md-9 >small{
+    font-size: 1em;
+  }
+   .notification .row .col-md-4 .row .col-md-3 > i{
+    font-size: 1.8em;
+  } 
+}
